@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   namespace: example05
-  name: grafana-notify
+  name: grafana-notify-success
   annotations:
     argocd.argoproj.io/sync-wave: "-10" 
 spec:
@@ -13,6 +13,6 @@ spec:
         image: alpine
         command:
           - "sleep"
-          - "5"
+          - "8"
       restartPolicy: Never
   backoffLimit: 2    
