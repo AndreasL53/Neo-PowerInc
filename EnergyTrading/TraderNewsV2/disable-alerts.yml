@@ -5,8 +5,6 @@ metadata:
   Name: disable-alerts
   annotations:
     argocd.argoproj.io/sync-wave: "-30"
-  labels:
-    codefresh.io/cert: disable-job  
 spec:
   template:
     spec:
