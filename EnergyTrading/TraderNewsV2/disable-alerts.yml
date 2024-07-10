@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   namespace: example05
-  name: stop-altering
+  name: stop-alerts
   annotations:
     argocd.argoproj.io/sync-wave: "-25" 
 spec:
