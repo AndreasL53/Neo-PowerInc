@@ -4,7 +4,7 @@ metadata:
   namespace: example05
   name: enable-alerts
   annotations:
-    argocd.argoproj.io/sync-wave: "100" 
+    argocd.argoproj.io/sync-wave: "110" 
 spec:
   template:
     spec:
